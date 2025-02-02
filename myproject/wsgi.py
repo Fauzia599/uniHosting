@@ -14,3 +14,9 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myproject.settings')
 
 application = get_wsgi_application()
+import os
+from django .core.wsql import get_wsqi_application # type: ignore
+
+setting_module='university.deployment'if 'RENDER_EXTEND':
+os.environ.setdefault('DJANGO _SETTINGS_MODULE',setting_module)
+application=get_wsgi_application()

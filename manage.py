@@ -6,7 +6,9 @@ import sys
 
 def main():
     """Run administrative tasks."""
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myproject.settings')
+    setting_module='university.deployment'if 'RENDER_EXTEND':
+    os.environ.setdefault('DJANGO _SETTINGS_MODULE',setting_module)
+    
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
@@ -20,3 +22,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
