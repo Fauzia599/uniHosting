@@ -6,7 +6,7 @@ import sys
 
 def main():
     """Run administrative tasks."""
-    setting_module='university.deployment'if 'RENDER_EXTEND':
+    setting_module='myproject.deployment'if 'RENDER_EXTEND':
     os.environ.setdefault('DJANGO _SETTINGS_MODULE',setting_module)
     
     try:
